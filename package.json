@@ -4,9 +4,9 @@
   "description": "",
   "main": "resources/main.js",
   "scripts": {
-    "dev": "./node_modules/.bin/shadow-cljs watch main renderer",
-    "build": "./node_modules/.bin/shadow-cljs compile main renderer",
-    "release": "./node_modules/.bin/shadow-cljs release main renderer",
+    "dev": "npx shadow-cljs watch main renderer",
+    "build": "npx shadow-cljs compile main renderer",
+    "release": "npx shadow-cljs release main renderer",
     "clean": "rm -rf resources/public/js/* && rm -rf target"
   },
   "keywords": [],
