@@ -1,10 +1,9 @@
 (ns app.renderer.state
-    (:require [reagent.core :refer [atom]]))
+  (:require [reagent.core :refer [atom]]))
 
-(def activeTab (atom {:tab "2"}))
+(def activeTab (atom {:tab "3"}))
 
-(def tabs (atom [
-                 {:id "1" :name "Home"}
+(def tabs (atom [{:id "1" :name "Home"}
                  {:id "2" :name "Insert"}
                  {:id "3" :name "Layout"}
                  {:id "4" :name "Reference"}
