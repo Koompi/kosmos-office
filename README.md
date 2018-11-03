@@ -11,6 +11,7 @@ $ git clone https://github.com/Koompi/kosmos-office.git
 You need to have ` Electron JS ` installed in your system.
 
 ```
+$ sudo npm install -g npx
 $ sudo npm install -g electron
 
 $ sudo npm install -g electron-prebuilt
